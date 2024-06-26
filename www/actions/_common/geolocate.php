@@ -2,7 +2,7 @@
 function get_latlng($postal_code)
 {
     $postal_code = str_replace(" ", "+", urlencode($postal_code));
-    $details_url = "https://maps.googleapis.com/maps/api/geocode/json?address=" . $postal_code . "&sensor=false&key=AIzaSyAiM9J4AgwBKKAAeq7A5r3TyvqpXbSkpH0";
+    $details_url = "https://maps.googleapis.com/maps/api/geocode/json?address=" . $postal_code . "&sensor=false&key=################";
 
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $details_url);
