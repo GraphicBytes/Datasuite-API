@@ -1,0 +1,1 @@
+var field_feedback_msg_html_<?php echo $field_id; ?> = '<div class="ppat-field-feedback-msg ppat-field-feedback-msg-<?php echo $field_id; ?> ppat-field-feedback-msg-<?php echo $field_name; ?> "></div>';
